@@ -16,10 +16,10 @@ describe('CrewMember', function() {
     expect(tristan.currentShip).toBe('Looking for a Rig');
   });
 
-  it('should return "had no effect" when the crew member tries to use their special ability', function() {
+  it('should return "had no effect" when the crew member tries to use their special ability with no ship', function() {
     expect(tristan.engageWarpDrive()).toBe('had no effect');
     expect(jon.setsInvisibility()).toBe('had no effect');
-    expect(katie.chargePhasers()).toBe('had no effect');    
+    expect(katie.chargePhasers()).toBe('had no effect');
   });
 });
 
@@ -96,5 +96,5 @@ describe('Ship with a crew', function() {
     jon.setsInvisibility();
     expect(spaceship.cloaked).toBe(true);
   });
-  
+
 });
