@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="3" errors="0" failures="3" time="0.004" timestamp="2016-05-04T17:51:04">
+		<testcase classname="CrewMember" name="should know their position" time="0.001">
+			<failure type="" message="ReferenceError: Can&amp;apos;t find variable: CrewMember in file:///Users/rachelk/Dropbox/Development/Javascript/space-invaders-v-000/spec/space-invaders-spec.js (line 6)">
+	at file:///Users/rachelk/Dropbox/Development/Javascript/space-invaders-v-000/spec/space-invaders-spec.js:6:29
+	at attemptSync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/boot.js:172:16)			</failure>
+			<failure type="" message="TypeError: undefined is not an object (evaluating &amp;apos;tristan.position&amp;apos;) in file:///Users/rachelk/Dropbox/Development/Javascript/space-invaders-v-000/spec/space-invaders-spec.js (line 12)">
+	at file:///Users/rachelk/Dropbox/Development/Javascript/space-invaders-v-000/spec/space-invaders-spec.js:12:19
+	at attemptSync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/boot.js:172:16)			</failure>
+		</testcase>
+		<testcase classname="CrewMember" name="should should return &amp;quot;Looking for a Rig&amp;quot; if they aren&amp;apos;t assigned to a ship" time="0.001">
+			<failure type="" message="ReferenceError: Can&amp;apos;t find variable: CrewMember in file:///Users/rachelk/Dropbox/Development/Javascript/space-invaders-v-000/spec/space-invaders-spec.js (line 6)">
+	at file:///Users/rachelk/Dropbox/Development/Javascript/space-invaders-v-000/spec/space-invaders-spec.js:6:29
+	at attemptSync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/boot.js:172:16)			</failure>
+			<failure type="" message="TypeError: undefined is not an object (evaluating &amp;apos;tristan.currentShip&amp;apos;) in file:///Users/rachelk/Dropbox/Development/Javascript/space-invaders-v-000/spec/space-invaders-spec.js (line 18)">
+	at file:///Users/rachelk/Dropbox/Development/Javascript/space-invaders-v-000/spec/space-invaders-spec.js:18:19
+	at attemptSync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/boot.js:172:16)			</failure>
+		</testcase>
+		<testcase classname="CrewMember" name="should return &amp;quot;had no effect&amp;quot; when the crew member tries to use their special ability" time="0.001">
+			<failure type="" message="ReferenceError: Can&amp;apos;t find variable: CrewMember in file:///Users/rachelk/Dropbox/Development/Javascript/space-invaders-v-000/spec/space-invaders-spec.js (line 6)">
+	at file:///Users/rachelk/Dropbox/Development/Javascript/space-invaders-v-000/spec/space-invaders-spec.js:6:29
+	at attemptSync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/boot.js:172:16)			</failure>
+			<failure type="" message="TypeError: undefined is not an object (evaluating &amp;apos;tristan.engageWarpDrive&amp;apos;) in file:///Users/rachelk/Dropbox/Development/Javascript/space-invaders-v-000/spec/space-invaders-spec.js (line 22)">
+	at file:///Users/rachelk/Dropbox/Development/Javascript/space-invaders-v-000/spec/space-invaders-spec.js:22:19
+	at attemptSync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/rachelk/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.25/lib/learn_test/jasmine/boot.js:172:16)			</failure>
+		</testcase>
+	</testsuite>
+</testsuites>
+
