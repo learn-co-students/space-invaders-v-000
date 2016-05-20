@@ -19,7 +19,7 @@ describe('CrewMember', function() {
   it('should return "had no effect" when the crew member tries to use their special ability', function() {
     expect(tristan.engageWarpDrive()).toBe('had no effect');
     expect(jon.setsInvisibility()).toBe('had no effect');
-    expect(katie.chargePhasers()).toBe('had no effect');    
+    expect(katie.chargePhasers()).toBe('had no effect');
   });
 });
 
@@ -50,7 +50,7 @@ describe('Spaceship', function() {
   });
 
   it('should be docked if it has no crew', function() {
-    expect(spaceship.docked).toBe(true);
+    expect(spaceship.docked()).toBe(true);
   });
 
   it('should have it\'s `phasers` charge set to "uncharged" by default', function() {
@@ -68,7 +68,7 @@ describe('Ship with a crew', function() {
   });
 
   it('`docked` should return false for ships with a crew', function() {
-    expect(spaceship.docked).toBe(false);
+    expect(spaceship.docked()).toBe(false);
   });
 
   it('a crew member should return their ship when `currentShip` is called on them', function() {
@@ -96,5 +96,5 @@ describe('Ship with a crew', function() {
     jon.setsInvisibility();
     expect(spaceship.cloaked).toBe(true);
   });
-  
+
 });
