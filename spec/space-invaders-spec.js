@@ -1,3 +1,5 @@
+'use strict';
+
 describe('CrewMember', function() {
   var tristan, jon, katie;
   beforeEach(function() {
