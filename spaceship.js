@@ -4,24 +4,22 @@ class Spaceship(){
     this.crew = crew;
     this.phasers = phasers;
     this.shields = shields;
-
-  }
-
-  
-chargePhasers() {
-
+ this.cloaked = false;
+    this.warpDrive = 'disengaged';
     if (crew.length === 0) {
-    this.docked = true;
-     this.phasersCharge = 'uncharged';
-  } else {
-    this.docked = false;
-    this.setCrew();
-  };
-  this.phasersCharge = 'charged!';
-}
-
-setCrew() {
-  for (var i = 0; i < this.crew.length; i++) {
-    this.crew[i].currentShip = this;
+      this.docked = true;
+    }else{
+      this.docked = false;
+    }
+    this.phasersCharge = 'uncharged';
+    this.notifyCrew()
   }
+
+  notifyCrew(){
+    var that = this;
+    this.crew.forEach(function(crewMember){
+      crewMember.currentShip = that;
+    });
+  }
+
 }
