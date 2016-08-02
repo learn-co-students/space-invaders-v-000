@@ -16,8 +16,9 @@ class Spaceship {
   }
 
   setCrewShip() {
-    self = this;
+    var self = this;
     this.crew.forEach(function(crewMember) {
+      debugger;
       crewMember.currentShip = self;
     })
   }
