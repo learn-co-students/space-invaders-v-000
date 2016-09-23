@@ -1,3 +1,4 @@
+"use strict";
 describe('space invaders', () => {
   describe('CrewMember', function() {
     let tristan, jon, katie
@@ -72,7 +73,7 @@ describe('space invaders', () => {
       expect(spaceship.docked).toBe(false)
     })
 
-    it('a crew member should return their ship when `currentShip` is called on them', function() {
+    it(' should return their ship when `currentShip` is called on them', function() {
       expect(tristan.currentShip).toBe(spaceship)
       expect(tristan.currentShip.name).toBe('The Krestel')
     })
