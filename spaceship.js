@@ -17,9 +17,9 @@ class Spaceship {
 
   setCrewsCurrentShip(){
     if (this.crew.length !== 0) {
-      this.crew.forEach(member => {
+      this.crew.forEach(function(member){
         member.currentShip = this;
-      });
+      }, this)
     }
   }
 }
