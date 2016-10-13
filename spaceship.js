@@ -1,8 +1,8 @@
 class Spaceship
 {
-  constructor(name,CrewMember, phasers,shields)
+    constructor(name,CrewMember, phasers,shields)
   {
-    this.name=name;
+    this.name = name;
     this.cloaked =false;
     this.warpDrive="disengaged"
     this.docked =CrewMember.length>0?false:true;
@@ -10,30 +10,12 @@ class Spaceship
     this.phasers=phasers;
     this.shields=shields;
     this.CrewMember=CrewMember;
-    if(this.CrewMember.length>0)
+    var c=this;
     this.CrewMember.forEach(function(member) {
-     member.currentShip= this;
+     member.currentShip= c;
    });
+}
 
-
-  chargePhasers()
-  {
-   if (this.CrewMember.length>0)
-    this.phasersCharge="charged!";
-
-  }
-
-  engageWarpDrive()
-  {
-     if (this.CrewMember.length>0)
-    this.warpDrive ="engaged!";
-  }
-
-  setsInvisibility()
-  {
-     if (this.CrewMember.length>0)
-    this.cloaked=true;
-  }
 }
 
 class CrewMember
@@ -44,17 +26,27 @@ class CrewMember
     this.currentShip= "Looking for a Rig";
   }
 
+
   engageWarpDrive()
   {
+    if(this.currentShip != "Looking for a Rig" && this.position =="Pilot")
+       this.currentShip.warpDrive  = "engaged!";
+       else
     return "had no effect";
   }
 
   setsInvisibility()
   {
+    if (this.currentShip != "Looking for a Rig" && this.position =="Defender")
+       this.currentShip.cloaked =true;
+       else
     return "had no effect";
   }
   chargePhasers()
   {
-      return "had no effect";
+    if (this.currentShip != "Looking for a Rig" && this.position =="Gunner")
+       this.currentShip.phasersCharge="charged!";
+       else
+    return "had no effect";
   }
 }
