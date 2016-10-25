@@ -79,21 +79,21 @@ describe('space invaders', () => {
 
     it('should charge its phasers when a gunner calls `chargePhasers`', function() {
       tristan.chargePhasers()
-      expect(spaceship.phasersCharge).toBe('charged!')
+      expect(spaceship.phasersCharge).toBe('uncharged')
       katie.chargePhasers()
       expect(spaceship.phasersCharge).toBe('charged!')
     })
 
     it('should have its warp drive set to "engaged" only when the pilot uses `engageWarpDrive`', function() {
       jon.engageWarpDrive()
-      expect(spaceship.warpDrive).toBe('engaged!')
+      expect(spaceship.warpDrive).toBe('disengaged')
       tristan.engageWarpDrive()
       expect(spaceship.warpDrive).toBe('engaged!')
     })
 
     it('should cloak when a defender `setsInvisibility`', function() {
       katie.setsInvisibility()
-      expect(spaceship.cloaked).toBe(true)
+      expect(spaceship.cloaked).toBe(false)
       jon.setsInvisibility()
       expect(spaceship.cloaked).toBe(true)
     })
