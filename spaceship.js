@@ -1,27 +1,29 @@
 class CrewMember {
   constructor(position) {
     this.position = position;
-    if (!this.currentShip) {
     this.currentShip = "Looking for a Rig";
-    } else {
-      debugger
+  }
 
-      return this.currentShip;
+  engageWarpDrive() {
+    if (this.currentShip === "Looking for a Rig") {
+      return "had no effect";
+    } else {
+    this.currentShip.warpDrive = "engaged!";
     }
   }
-  engageWarpDrive() {
-    this.currentShip.warpDrive = "engaged!"
-    return "had no effect";
-  }
   setsInvisibility() {
-    return "had no effect";
+    if (this.currentShip === "Looking for a Rig") {
+      return "had no effect";
+    } else {
+      this.currentShip.cloaked = true;
+    }
   }
   chargePhasers() {
-    return "had no effect";
-  }
-  setCurrentShip(ship){
-    debugger
-    this.currentShip = ship;
+    if (this.currentShip === "Looking for a Rig") {
+      return "had no effect";
+    } else {
+      this.currentShip.phasersCharge = "charged!";
+    }
   }
 
 }
@@ -35,15 +37,15 @@ class Spaceship {
     this.cloaked = false;
     this.warpDrive = 'disengaged';
     this.phasersCharge = 'uncharged';
+    var ship = this;
     if (this.crew.length == 0) {
       this.docked = true;
     } else {
       this.docked = false;
       this.crew.forEach(function(member) {
-        debugger
-        var ship = this.value;
         member.currentShip = ship;
       })
     }
   }
+
 }
