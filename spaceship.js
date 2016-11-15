@@ -8,7 +8,7 @@ class Spaceship {
     this.warpDrive = "disengaged";
     this.phasersCharge = "uncharged";
     this.docked = true;
-    if (crewMembers.length === 0) {
+    if (crew.length === 0) {
      this.docked = true;
     } else {
      this.docked = false;
