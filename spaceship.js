@@ -1,21 +1,26 @@
 class Spaceship {
-  constructor(name, crewMembers, phasers, shields) {
+  constructor(name, crew, phasers, shields) {
     this.name = name;
-    this.crewMembers = crewMembers;
+    this.crew = crew;
     this.phasers = phasers;
     this.shields = shields;
     this.cloaked = false;
     this.warpDrive = "disengaged";
     this.phasersCharge = "uncharged";
-    this.docked = false;
+    this.docked = true;
     if (crewMembers.length === 0) {
      this.docked = true;
+    } else {
+     this.docked = false;
     }
-    for (var i = 0; i < crewMembers.length; i++) {
-      crewMembers[i].currentShip = this;
-    }
+    this.setCrew()
 
   }
 
+  setCrew() {
+    this.crew.forEach(crewMember => {
+      crewMember.currentShip = this;
+    });
+  }
 
 }
