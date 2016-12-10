@@ -1,6 +1,6 @@
 describe('space invaders', () => {
   describe('CrewMember', function() {
-    let tristan, jon, katie
+    var tristan, jon, katie
     beforeEach(function() {
       tristan = new CrewMember('Pilot')
       jon = new CrewMember('Defender')
