@@ -1,45 +1,41 @@
-class CrewMember{
-  constructor(position, currentShip){
-    this.position = position;
-    this.currentShip = currentShip;
-
-    if (this.currentShip=== 'undefined'){
-     var lonely = "Looking for a Rig"
-    }
-    return lonely
-  };
-
-
-
-
-  chagePhasers(){
-
-  };
-
-  engageWarpDrive(){
-
-  };
-
-  setsInvisibility(){
-
-  };
-}
-
-
 class Spaceship{
-  constructor(name, cloaked=[false], phasers, shields, warpDrive="disengaged"){
+  constructor(name, crew, phasers,shields){
     this.name = name;
+    this.crew = crew;
     this.phasers = phasers;
     this.shields = shields;
-    this.cloaked = cloaked;
-    this.warpDrive = warpDrive;
+    this.warpDrive = 'disengaged';
+    this.phasersCharge = 'uncharged';
+    this.cloaked = false;
+  
+  if (crew.length === 0 ){
+    this.docked = true
+  } else {
+    this.docked = false 
   };
 
-  engageWarpDrive(){
+  this.crewShip();
+  }
 
-  };
+  crewShip(){
+    this.crew.forEach(crewmate => {
+      crewmate.currentShip = this;
+    });
+  }
 
 
 
 
-}
+
+}  // end spaceship
+
+// class User {
+//   constructor(name, email) {
+//     this.name = name;
+//     this.email = email;
+//   }
+ 
+//   sayHello() {
+//     console.log("Hello, my name is "+ this.name);
+//   }
+// }
