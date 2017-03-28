@@ -18,7 +18,7 @@ class CrewMember {
       this.currentShip.cloaked = true
     }
     else {
-      return "had no effect"
+      return "had no effect"//
     }
   }
 
