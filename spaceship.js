@@ -1,17 +1,29 @@
 class Spaceship{
 
-	constructor(name, crewMembers, phasers, shields){
+	constructor(name, crew, phasers, shields){
 		this.name = name;
-		this.crewMembers = crewMembers;
+		this.crew = crew;
 		this.phasers = phasers;
 		this.shields = shields;
 		this.cloaked = false;
 		this.warpDrive = 'disengaged';
-		this.docked = crewMembers.length !== 0 ? false : true;
+		this.docked = crew.length !== 0 ? false : true;
 		this.phasersCharge = 'uncharged';
-
-		for(let i = 0, l = crewMembers.length; i < l; i++){
-			this.crewMembers[i].currentShip = this;
-		}
+		this.notifyCrew();
 	}
+
+	notifyCrew(){
+	    // using an arrow function lexically
+	    // binds `this` to the context of this
+	    // instance of Spaceship, rather than
+	    // the context of the callback
+	    this.crew.forEach(crewMember => {
+	      crewMember.currentShip = this;
+	    });
+	}
+
+		// for(let i = 0, l = crewMembers.length; i < l; i++){
+		// 	this.crewMembers[i].currentShip = this;
+		// }
+	
 }
