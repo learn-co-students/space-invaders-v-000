@@ -2,14 +2,10 @@ class CrewMember {
   constructor(position) {
   this.position = position
   this.currentShip = 'Looking for a Rig'
-
-  function shipStuff(crewMember, action, message) {
-    return (this.position === `${crewMember}` && typeof(this.currentShip) === 'object' ? (this.currentShip.`${action}` = `${message}`) : ('had no effect'))
-    }
-  }
+}
 
   chargePhasers() {          //can't figure out how to reuse this code.. stupid JS. or
-    shipStuff("gunner", phasersCharge, 'charged!')
+    return (this.position === 'Gunner' && typeof(this.currentShip) === 'object' ? (this.currentShip.phasersCharge = 'charged!') : ('had no effect'))
   }
 
   engageWarpDrive() {
