@@ -13,7 +13,14 @@ class Spaceship {
 
   chargePhasers() {
     this.phasersCharge = 'charged!';
-    debugger;
+  }
+
+  engageWarpDrive() {
+    this.warpDrive = 'engaged!';
+  }
+
+  setsInvisibility() {
+    this.cloaked = true;
   }
 
   updateCrew(crew) {

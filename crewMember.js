@@ -5,27 +5,26 @@ class CrewMember {
   }
 
   chargePhasers() {
-    // if ( ( this.currentShip === 'Looking for a Rig' ) || ( this.position !== 'Gunner' ) ) {
-    //   return 'had no effect';
-    // } else {
+    if ( ( this.currentShip === 'Looking for a Rig' ) || ( this.position !== 'Gunner' ) ) {
+      return 'had no effect';
+    } else {
       this.currentShip.chargePhasers();
-    // }
-    // debugger;
+    }
   }
 
   engageWarpDrive() {
-    if ( this.currentShip === 'Looking for a Rig' ) {
+    if ( ( this.currentShip === 'Looking for a Rig' ) || ( this.position !== 'Pilot' ) ) {
       return 'had no effect';
+    } else {
+      this.currentShip.engageWarpDrive();
     }
   }
 
   setsInvisibility() {
-    if ( this.currentShip === 'Looking for a Rig' ) {
+    if ( ( this.currentShip === 'Looking for a Rig' ) || ( this.position !== 'Defender' ) ) {
       return 'had no effect';
+    } else {
+      this.currentShip.setsInvisibility();
     }
-  }
-
-  chargePhasers() {
-    return 'had no effect';
   }
 }
