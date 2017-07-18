@@ -1,1 +1,9 @@
+class CrewMember {
 
+  constructor () {
+
+  }
+
+  //methods
+
+}
