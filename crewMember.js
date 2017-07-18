@@ -12,6 +12,8 @@ class CrewMember {
 
 
   //methods
-  engageWarpDrive() {}
+  engageWarpDrive() {
+    return "had no effect"
+  }
 
 }
