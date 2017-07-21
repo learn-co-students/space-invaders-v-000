@@ -1,5 +1,5 @@
 class CrewMember {
-  constructor(position, currentShip) {
+  constructor(position) {
     this.position = position;
     this.currentShip = 'Looking for a Rig'
   }
