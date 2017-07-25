@@ -12,12 +12,13 @@ class Spaceship {
       this.docked = false;
     }
     this.phasersCharge = "uncharged";
-    this.notifyCrew();
+    this.setCrew();
   }
 
-  notifyCrew() {
-    this.crews.forEach(crew => {
-      crew.currentShip = this;
-    })
+  // Sets the ship for each crew member.
+  setCrew() {
+    this.crew.forEach(crewMember => {
+      crewMember.currentShip = this;
+    });
   }
 }
