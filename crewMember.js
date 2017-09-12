@@ -8,7 +8,7 @@ class CrewMember{
         if (this.currentShip === "Looking for a Rig") {
             return "had no effect";
         } else if (this.currentShip !== "Looking for a Rig" && this.position === 'Pilot'){
-            this.currentShip.warpDrive = "engaged";
+            this.currentShip.warpDrive = "engaged!";
         }
     }
 
@@ -24,7 +24,7 @@ class CrewMember{
         if (this.currentShip === "Looking for a Rig") {
             return "had no effect";
         } else if (this.currentShip !== "Looking for a Rig" && this.position === 'Gunner'){
-            this.currentShip.phasersCharge = "Charged!";
+            this.currentShip.phasersCharge = "charged!";
         }
     }
 }
