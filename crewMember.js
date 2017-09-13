@@ -5,20 +5,20 @@ class CrewMember {
   }
 
   engageWarpDrive(){
-    if(this.currentShip === "Looking for a Rig"){
-      return "had no effect";
-    }
-    else if(this.currentShip !== "Looking for a Rig" && this.position === "Pilot"){
+    if(this.currentShip !== "Looking for a Rig" && this.position === "Pilot"){
       this.currentShip.warpDrive = "engaged!"
+    }
+    else {
+      return "had no effect"
     }
   }
 
   setsInvisibility(){
-    if(this.currentShip === "Looking for a Rig"){
-      return "had no effect"
-    }
-    else if(this.currentShip !== "Looking for a Rig" && this.position === 'Defender'){
+    if(this.currentShip !== "Looking for a Rig" && this.position === "Defender"){
       this.currentShip.cloaked = true
+    }
+    else {
+      return "had no effect"
     }
   }
 
